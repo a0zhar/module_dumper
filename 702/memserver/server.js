@@ -42,4 +42,6 @@ try {
   var tarea = document.createElement("textarea");
   leak(tarea);
   query();
-} catch (e) { alert(e); }
+} catch (e) {
+  alert(e);
+}
